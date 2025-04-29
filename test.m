@@ -2,7 +2,7 @@ clc;
 clear;
 close all;
 % Read the original image
-picture = imread("C:\Users\IT BD\Desktop\Image Processing\Image\great_crested_grebe.jpg");
+picture = imread(image_path);
 
 % Check if the image is grayscale (2D)
 if ndims(picture) == 2
